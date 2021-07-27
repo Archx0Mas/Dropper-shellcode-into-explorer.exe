@@ -1,8 +1,0 @@
-Final dropper
-
--- getting shellcode x64
--- extract shellcode from .rsc 
--- decrypt shellcode (xor)
--- inject shellcode into explorer
--- get rid of console pop
--- executing and avading WDefender AV
