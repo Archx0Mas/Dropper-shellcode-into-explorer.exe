@@ -1,0 +1,1 @@
+#define FAVORITE_ICO 100
