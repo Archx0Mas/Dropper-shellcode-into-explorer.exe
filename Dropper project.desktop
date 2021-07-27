@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Name=Combo
+Comment=Open '/tmp/VirtualBox Dropped Files/2021-07-27T12:20:55.566930000Z/Combo'
+Icon=inode-directory
+Name[en_US]=Dropper project
+Comment[en_US]=Open '/tmp/VirtualBox Dropped Files/2021-07-27T12:20:55.566930000Z/Combo'
+Icon[en_US]=inode-directory
+URL=file:///tmp/VirtualBox%20Dropped%20Files/2021-07-27T12:20:55.566930000Z/Combo
+Type=Link
