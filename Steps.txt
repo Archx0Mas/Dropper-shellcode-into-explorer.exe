@@ -1,0 +1,26 @@
+Final dropper our goals : 
+
+-- getting shellcode x64
+-- extract shellcode from .rsc 
+-- decrypt shellcode (xor)
+-- inject shellcode into explorer
+-- get rid of console pop 
+-- executing and avading WDefender AV
+
+Target System : Windows 10
+Shellcode used : 64bit , bin format
+
+
+Final dropper steps to reproduce .exe file 
+
+--- This will function only with 64 bit files because explore.exe is a 64 bit program in windows system. Anyway you can change the target process in implementim.cpp and maybe use 32 bit shellcode. ---
+
+-STEP 1- Open CMD in windows and go to the path of where you have saved all the files that you took from me.
+-- Command : cd C:\\yourPath 
+-STEP 2- After you have got in the right path , we will execute a command that encrypts the shellcode file msgbox64.bin and outputs favorite.ico in the folder that you are.
+-- Command : python .\xorencrypt.py msgbox64.bin (Make sure you have python 2.7 installed on your PC)
+-- After this you will see favorite.ico in the folder (If you dont see you are doing something wrong)
+-STEP 3- Then we go again in the CMD we have opened and press compile.bat , this will take implementim.cpp file and output an .exe file in which is our shellcode inside that is ready to be fired.
+-- Last Step : Open or execute .exe file , you will see the shellcode executing and a message box will pop up with a message from me :) , Windows Defender is ON  and didnt catch the behaviour and static bytes.
+
+NOTE : If you want to execute malicious shellcode to gain access to system you should  repeat step 2 and put a malicious shellcode file instead of a msgbox64 file that we used for researching purposes. Dont Use it For ILEGAL PURPOSES! 
