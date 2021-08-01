@@ -9,7 +9,7 @@ For researching purposes i have used a non malicious shellcode , a message box t
 
 Category : Malware Developing   
 
-Combined all methods to get a dropper and avade windows defender in static and runtime both.
+Goal : Combined all methods to get a dropper and avade windows defender in static and runtime both.
 
 ### Credits : 
 SEKTOR 7 TEAM 
